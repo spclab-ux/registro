@@ -5,12 +5,13 @@ do cadastro de clientes inadimplentes.
 
 O acesso ao sistema começa na tela de login. Os campos utilizados serão Usuário
 e Senha: spcteste01@spcbrasil.org.br e 123456 . A tela de login deverá validar
-casos de usuário e senha inválidos (quaisquer valores diferentes desses).
+casos de usuário e senha inválidos (quaisquer valores diferentes desses). (não é necessário usar API)
 
 Esse cadastro deve comportar as operações de consulta, inclusão, exclusão,
 e atualização de registros seguindo as seguintes regras abaixo:
 
 Os registros são compostos pelos seguintes campos:
+
 **CPF:** Campo numérico(dígitos de 0 a 9), deve conter 11 dígitos.
 Ex: 234.567.432-85. O campo poderá ser enviado à API como string(23456743285),
 porém, deverá ser exibido com máscara(pontos e separadores).
@@ -51,7 +52,7 @@ modificado será CPF.
 Tipo Requisição | Endereço | descrição
 -----------------|----------|------------------
 GET | /registro/ | retorna todos os registros
-GET | /registro/{id} | returna um registro
+GET | /registro/{id} | retorna um registro
 POST | /registro/ | inclui um novo registro
 PUT | /registro/{id} | atualiza um registro
 DELETE | /registro/{id} | excluir um registro
