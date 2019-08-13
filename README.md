@@ -57,6 +57,9 @@ POST | /registro/ | inclui um novo registro
 PUT | /registro/{id} | atualiza um registro
 DELETE | /registro/{id} | excluir um registro
 
+## Header
+Content-Type: application/json
+Accept: application/json
 
 ## Json de Exemplo
 
