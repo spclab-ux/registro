@@ -7,7 +7,7 @@
 ## Endpoint
 [http://5d52bcb73432e70014e6bc2c.mockapi.io/spc/](http://5d52bcb73432e70014e6bc2c.mockapi.io/spc/)
 
-Tipos Requisição | Endereço | descrição
+Tipo Requisição | Endereço | descrição
 -----------------|----------|------------------
 GET | /registro/ | retorna todos os registros
 GET | /registro/{id} | returna um registro
