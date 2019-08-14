@@ -1,7 +1,13 @@
 # Desafio Registro SPC
 
 Sua missão é atender um grupo de lojistas que desejam realizar a manutenção
-do cadastro de clientes inadimplentes.
+do cadastro de clientes inadimplentes. O layout, screenflow e assets (ícones e imagens) estão disponíveis aqui:
+
+**Wireframe**
+https://sketch.cloud/s/KWway/a/d73xRn/play
+
+**Assets e layouts: **
+https://sketch.cloud/s/KWway
 
 O acesso ao sistema começa na tela de login. Os campos utilizados serão Usuário
 e Senha: spcteste01@spcbrasil.org.br e 123456 . A tela de login deverá validar
@@ -41,7 +47,8 @@ deverá alertar o usuário para confirmação(Deseja excluir o registro?)
 numa tela modal similar à tela de inclusão. O único dado que não poderá ser
 modificado será CPF.
 
-
+**Alerts:** O mesmo layout de alert(Alerta) será emitido para operações de escrita e atualização. O texto dos alertas precisa ser criado, e deverá ser exibido conforme a sua respectiva operação(Ex: "Deseja excluir o registro xpto?", "Deseja incluir o usuário "Fulano da Silva"?", "Deseja alterar o registro xpto", etc.).  
+ 
 
 ## Documentação API Rest
 
