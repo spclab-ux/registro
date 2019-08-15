@@ -1,12 +1,15 @@
 # Desafio Registro SPC
 
+**Importante**
+Não realizar Fork desse repositório. Crie um repositório próprio. 
+
 Sua missão é atender um grupo de lojistas que desejam realizar a manutenção
 do cadastro de clientes inadimplentes. O layout, screenflow e assets (ícones e imagens) estão disponíveis aqui:
 
 **Wireframe**
 https://sketch.cloud/s/KWway/a/d73xRn/play
 
-**Assets e layouts: **
+**Assets e layouts**
 https://sketch.cloud/s/KWway
 
 O acesso ao sistema começa na tela de login. Os campos utilizados serão Usuário
